@@ -21,6 +21,7 @@ application.register("insert-code", InsertCodeController)
 import NotificationsController from "./notifications_controller"
 application.register("notifications", NotificationsController)
 
+
 import OpenModalController from "./open_modal_controller"
 application.register("open-modal", OpenModalController)
 
@@ -31,3 +32,6 @@ application.register("range-input", RangeInputController)
 
 import TabController from "./tab_controller"
 application.register("tab", TabController)
+
+import WithdrawController from "./withdraw_controller"
+application.register("withdraw", WithdrawController)
